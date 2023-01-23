@@ -3,6 +3,9 @@ Causal Inference Toolkit
 
 WIP
 
+Reference for math in Github: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
+
+
 
 
 Instrumental variables
