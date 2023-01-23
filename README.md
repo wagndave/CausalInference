@@ -8,6 +8,27 @@ Reference for math in Github: https://docs.github.com/en/get-started/writing-on-
 Reference for tables in Github: https://www.npmjs.com/package/markdown-it-multimd-table
 
 
+Assumptions
+
+1. Stable Unit Treatment Value Assumption (SUTVA)
+
+1.1 No intereference: units do not interefere with each other: no spillover/contagion. Treatment assignment of one unit does not affect the outcome of another unit
+
+e.g. vaccine studies
+
+1.2 One version of treatment
+
+-> SUTVA allows us to write potential outcome for $i^{th}$ person in terms of only that person's treatment. This simplifies the problem.
+
+2. Consistency
+
+  When treatment is T=1, then Y_{1} is equal to the observed outcome if the actual treatment received is T=1. Linking potential outcomes to observed outcomes.
+
+3. Ignorability (a.k.a 'no unmeasured confounders' 
+
+$Y_0, Y_1 /indep A|X$
+  
+4. Positivity
 
 Instrumental variables
 
