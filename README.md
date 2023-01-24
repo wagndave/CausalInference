@@ -8,7 +8,7 @@ Reference for math in Github: https://docs.github.com/en/get-started/writing-on-
 Reference for tables in Github: https://www.npmjs.com/package/markdown-it-multimd-table
 
 
-Assumptions
+## Assumptions
 
 1. Stable Unit Treatment Value Assumption (SUTVA)
 
@@ -30,7 +30,7 @@ $Y_0, Y_1 /indep A|X$
   
 4. Positivity
 
-Instrumental variables
+## Instrumental variables
 
 
 This is a test, and uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
@@ -47,18 +47,36 @@ testing tables:
 | git diff testing | git diff       | git diff      |
 
 
-Non-compliance and LATE 
+## Non-compliance and LATE 
 
 
-Matching & Propensity Score
+## Matching 
 
 
-Difference-in-Difference (DID)
+- matching directly on confounders
+- greedy matching
+- optimal matching
+- assessing balance
 
 
-Synthetic Control
+## IPTW
 
-Regression Discontinuity Design (RDD)
+## Propensity Score Matching
+
+
+
+## Difference-in-Difference (DID)
+
+
+
+
+## Synthetic Control
+
+
+
+
+
+## Regression Discontinuity Design (RDD)
 
 
 
