@@ -12,11 +12,11 @@ Reference for tables in Github: https://www.npmjs.com/package/markdown-it-multim
 
 1. Stable Unit Treatment Value Assumption (SUTVA)
 
-1.1 No intereference: units do not interefere with each other: no spillover/contagion. Treatment assignment of one unit does not affect the outcome of another unit
+  1.1 No intereference: units do not interefere with each other: no spillover/contagion. Treatment assignment of one unit does not affect the outcome of another unit
 
 e.g. vaccine studies
 
-1.2 One version of treatment
+  1.2 One version of treatment
 
 -> SUTVA allows us to write potential outcome for $i^{th}$ person in terms of only that person's treatment. This simplifies the problem.
 
@@ -59,10 +59,19 @@ testing tables:
 - assessing balance
 
 
-## IPTW
+
 
 ## Propensity Score Matching
 
+
+
+## IPTW
+
+- problem
+- theory
+  - marginal structural models (MSM)
+- implementation
+- issues
 
 
 ## Difference-in-Difference (DID)
