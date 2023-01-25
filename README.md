@@ -64,6 +64,8 @@ testing tables:
 ## Propensity Score Matching
 
 
+## Doubly-robust estimator
+
 
 ## IPTW
 
