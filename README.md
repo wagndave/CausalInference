@@ -1,4 +1,4 @@
-# CausalInference
+# Causal Inference
 Causal Inference Toolkit
 
 WIP
