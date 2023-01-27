@@ -72,6 +72,10 @@ testing tables:
 - problem
 - theory
   - marginal structural models (MSM)
+  
+Bias-variance trade-off
+There is a bias-variance tradeoff at work in propensity score estimation; every step toward better balance usually means an increase in variance and at some point a marginal decrease in bias may not be worth the associated increase in variance.
+
 - implementation
 
 Python
