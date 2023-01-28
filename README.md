@@ -50,10 +50,15 @@ This is a causal effect of treatment received
 .
 This is a causal effect because it contrasts counterfactuals in a common population. 
 
-But it's in a subpopulation, so it's a local efect - i.e. it's only looking at compliers. This is also referred to as complier average causal effect (CACE).  Otherwise also called Local Average Treatment Effect (LATE), which is a more general term about causal effect of subpopulations. 
+But it's in a subpopulation, so it's a local efect - i.e. it's only looking at compliers. This is also referred to as complier average causal effect (CACE).  Otherwise also called Local Average Treatment Effect (LATE), which is a more general term about causal effects of subpopulations. 
 
 Note: You have no inference about defiers, always-takers, or never-takers.
 
+
+Assumptions of IV
+
+1. exclusion restriction
+2. monotonicity
 
 Implementation
 
