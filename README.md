@@ -43,8 +43,13 @@ $=E(Y_{T=1}-Y_{T=0}|compliers)     (2)$
 
 Expression (2) is true because you are restricting to the subpopulation of compliers (i.e. compliers do what they are told). In other words, $z=1$ for compliers is also going to correspond to exactly $T=1$. So as long as you are resticting to the subpopulation of compliers, you can use $z$ and $T$ interchangeably.
 
-This is a causal effect of treatment received.
-This is a causal effect because it contrasts counterfactuals in a common population. ItBut it's in a subpopulation, so it's a local efect - i.e. it's only looking at compliers. This is also referred to as complier average causal effect (CACE). You have no inference about defiers, always-takers, or never-takers. Otherwise also called Local Average Treatment Effect (LATE), which is a more general term about causal effect of subpopulations.
+This is a causal effect of treatment received
+.
+This is a causal effect because it contrasts counterfactuals in a common population. 
+
+But it's in a subpopulation, so it's a local efect - i.e. it's only looking at compliers. This is also referred to as complier average causal effect (CACE).  Otherwise also called Local Average Treatment Effect (LATE), which is a more general term about causal effect of subpopulations. 
+
+Note: You have no inference about defiers, always-takers, or never-takers.
 
 
 This is a test, and uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
