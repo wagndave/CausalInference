@@ -32,6 +32,13 @@ $Y_0, Y_1 /indep A|X$
 
 ## Instrumental variables
 
+TLDR
+
+In Instrumental variable (IV) analysis, we're interested in estimating local treatment effects, i.e. local causal effects, or Complier Average Causal effects (CACE). We are focused on the subset of compliers.
+
+Problem
+
+Theory
 
 - the target of inference is: 
 
@@ -132,6 +139,7 @@ testing tables:
 
 ## IPTW
 
+- TLDR
 - problem
 - theory
   - marginal structural models (MSM)
