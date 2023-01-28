@@ -12,7 +12,7 @@ Reference for tables in Github: https://www.npmjs.com/package/markdown-it-multim
 
 1. Stable Unit Treatment Value Assumption (SUTVA)
 
-  1.1 No intereference: units do not interefere with each other: no spillover/contagion. Treatment assignment of one unit does not affect the outcome of another unit
+  1.1 No interference: units do not interfere with each other: no spillover/contagion. Treatment assignment of one unit does not affect the outcome of another unit
 
 e.g. vaccine studies
 
@@ -60,7 +60,7 @@ Assumptions of IV
 1. exclusion restriction
 2. monotonicity
 
-i.e there is no people that do the opposite of what they are encouraged to do
+i.e there is no people that do the opposite of what they are encouraged to do[^1]
 
 Implementation
 
@@ -105,6 +105,9 @@ testing tables:
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff testing | git diff       | git diff      |
+
+
+
 
 
 ## Non-compliance and LATE 
@@ -170,6 +173,6 @@ R
 
 https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html
 
-
+[^1]: testing footnote here.
 
 
