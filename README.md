@@ -55,6 +55,37 @@ But it's in a subpopulation, so it's a local efect - i.e. it's only looking at c
 Note: You have no inference about defiers, always-takers, or never-takers.
 
 
+Implementation
+
+Python
+
+```Python
+from linearmodels.iv import IV2SLS
+
+def parse(model, exog="years_of_schooling"):
+    param = model.params[exog]
+    se = model.std_errors[exog]
+    p_val = model.pvalues[exog]
+    print(f"Parameter: {param}")
+    print(f"SE: {se}")
+    print(f"95 CI: {(-1.96*se,1.96*se) + param}")
+    print(f"P-value: {p_val}")
+    
+formula = 'log_wage ~ 1 + C(year_of_birth) + C(state_of_birth) + [years_of_schooling ~ q4]'
+iv2sls = IV2SLS.from_formula(formula, factor_data).fit()
+parse(iv2sls)
+
+
+```
+
+
+R
+
+```R
+
+
+````
+
 This is a test, and uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 
 **The Cauchy-Schwarz Inequality**
@@ -123,6 +154,14 @@ R
 
 ## Regression Discontinuity Design (RDD)
 
+
+
+
+
+
+## Sources 
+
+https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html
 
 
 
