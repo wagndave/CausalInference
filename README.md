@@ -24,9 +24,9 @@ e.g. vaccine studies
 
   When treatment is T=1, then Y_{1} is equal to the observed outcome if the actual treatment received is T=1. Linking potential outcomes to observed outcomes.
 
-3. Ignorability (a.k.a 'no unmeasured confounders' 
+3. Ignorability (a.k.a 'no unmeasured confounders')
 
-$Y_0, Y_1 /indep A|X$
+$Y_0, Y_1 \perp A|X$
   
 4. Positivity
 
