@@ -35,11 +35,11 @@ $Y_0, Y_1 /indep A|X$
 
 - the target of inference is: 
 
-$E(Y^{Z=1}|T_0=0,T_1=1) - E(Y^{Z=0} | T_0=0, T_1=1)$
+$E(Y_{Z=1}|T_0=0,T_1=1) - E(Y_{Z=0} | T_0=0, T_1=1)$
 
-$=E(Y^{z=1}-Y^{z=0}|compliers)     (1)$
+$=E(Y_{z=1}-Y_{z=0}|compliers)     (1)$
 
-$=E(Y^{T=1}-Y^{T=0}|compliers)     (2)$
+$=E(Y_{T=1}-Y_{T=0}|compliers)     (2)$
 
 Expression (2) is true because you are restricting to the subpopulation of compliers (i.e. compliers do what they are told). In other words, $z=1$ for compliers is also going to correspond to exactly $T=1$. So as long as you are resticting to the subpopulation of compliers, you can use $z$ and $T$ interchangeably.
 
