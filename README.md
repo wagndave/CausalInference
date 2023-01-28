@@ -60,6 +60,8 @@ Assumptions of IV
 1. exclusion restriction
 2. monotonicity
 
+i.e there is no people that do the opposite of what they are encouraged to do
+
 Implementation
 
 Python
