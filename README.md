@@ -176,7 +176,7 @@ R
 
 
 
-### Special topics
+# Special topics
 
 ## Uplift modeling
 
