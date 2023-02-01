@@ -176,6 +176,18 @@ R
 
 
 
+### Special topics
+
+## Uplift modeling
+
+https://pylift.readthedocs.io/en/latest/introduction.html
+
+https://github.com/rsyi/pylift/blob/master/docs/introduction.rst
+
+https://matheusfacure.github.io/python-causality-handbook/19-Evaluating-Causal-Models.html
+
+
+
 
 
 ## Sources 
