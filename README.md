@@ -186,6 +186,7 @@ https://github.com/rsyi/pylift/blob/master/docs/introduction.rst
 
 https://matheusfacure.github.io/python-causality-handbook/19-Evaluating-Causal-Models.html
 
+https://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf
 
 
 
